@@ -1,9 +1,69 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Privacy Policy — Glow</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#333;line-height:1.6}h1{font-size:24px}h2{font-size:18px;margin-top:32px}</style></head><body>
-<h1>Privacy Policy</h1><p><strong>Glow</strong> · Last updated: April 06, 2026</p>
-<h2>Data We Collect</h2><p>Glow collects anonymous analytics data (screen views, feature usage) through Firebase Analytics to help us improve the app. This data is not linked to your identity.</p>
-<h2>Data Storage</h2><p>Your personal data is stored locally on your device. If you enable iCloud sync, data is also stored in your private iCloud account.</p>
-<h2>Third-Party Services</h2><p><strong>Firebase Analytics</strong> (Google) — Anonymous analytics. <a href="https://firebase.google.com/support/privacy">Policy</a></p>
-<h2>No Tracking</h2><p>We do not track you across apps or websites. We do not sell your data.</p>
-<h2>Children</h2><p>Glow is not directed at children under 13.</p>
-<h2>Your Rights</h2><p>Delete all data by deleting the app. Contact: <a href="mailto:karoljaworsky@gmail.com">karoljaworsky@gmail.com</a>.</p>
-<p>© 2026 Karol Jaworski</p></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Privacy Policy — Glow</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#333;line-height:1.6}h1{font-size:24px}h2{font-size:18px;margin-top:32px}ul{padding-left:20px}li{margin-bottom:4px}</style></head><body>
+<h1>Privacy Policy</h1><p><strong>Glow</strong> · Last updated: June 04, 2026</p>
+
+<h2>Data We Collect</h2>
+<p>Glow collects the following types of data to provide its features:</p>
+<ul>
+<li><strong>Skincare data:</strong> Products you add, routine logs, skin condition scores, and notes you enter.</li>
+<li><strong>Face and photo data:</strong> Progress photos of your face that you capture or import (see "Face and Photo Data" section below).</li>
+<li><strong>Profile information:</strong> Skin type, concerns, age range, and other profile details you provide.</li>
+<li><strong>Purchase history:</strong> Subscription status managed by Apple's StoreKit.</li>
+<li><strong>Analytics:</strong> Anonymous usage data (screen views, feature usage) not linked to your identity.</li>
+</ul>
+
+<h2>Face and Photo Data</h2>
+<p>Glow allows you to capture or import photos of your face for skincare progress tracking. Here is how face photo data is handled:</p>
+<ul>
+<li><strong>What we collect:</strong> Front-facing and optional profile photos of your face, taken or imported by you for before-and-after skincare progress comparison.</li>
+<li><strong>How photos are used:</strong> Photos are used solely for visual comparison of your skin condition over time. Glow does not perform facial recognition, facial analysis, biometric identification, or any automated processing of face data. No facial geometry, facial landmarks, or biometric templates are extracted from your photos.</li>
+<li><strong>Storage:</strong> Photos are stored locally on your device using SwiftData. If you have iCloud enabled, photos sync to your private iCloud account under your Apple ID. Photos are never uploaded to our servers or any third-party service.</li>
+<li><strong>Third-party sharing:</strong> Face photos are never shared with any third party. Photos are never sent to the AI Skin Advisor or any external service.</li>
+<li><strong>Retention:</strong> Photos are retained on your device and in your iCloud account until you delete them. You can delete individual photos from the Photos tab, or delete all data from Settings. Uninstalling the app removes all local data. iCloud data can be managed through your iCloud settings.</li>
+<li><strong>Consent:</strong> The app asks for your explicit consent before you capture your first progress photo, explaining what data is collected and how it is handled.</li>
+</ul>
+
+<h2>AI Skin Advisor and Third-Party AI Service</h2>
+<p>Glow offers an optional AI Skin Advisor feature (premium subscription required) that provides personalized skincare advice. This feature sends data to a third-party AI service. Here is exactly how it works:</p>
+<ul>
+<li><strong>What data is sent:</strong> When you ask a question, Glow sends the following text-only data: your skin profile (skin type, concerns, age range, retinoid status, climate), your active product names, brands, types, and active ingredients (up to 12 products), your recent skin log entries (up to 14 days of condition scores, breakout counts, and notes), your 30-day average skin score, and your question text.</li>
+<li><strong>What is NOT sent:</strong> Photos, images, face data, Apple ID information, location data, payment information, or any biometric data are never sent to the AI service.</li>
+<li><strong>Who receives the data:</strong> Your skincare data is sent to xAI's Grok AI service via an encrypted HTTPS proxy server operated by Glow. The proxy forwards your request to xAI for AI processing. xAI's privacy practices are governed by their privacy policy at <a href="https://x.ai/legal/privacy-policy">https://x.ai/legal/privacy-policy</a>.</li>
+<li><strong>How data is processed:</strong> Your skincare data is included as context in an AI chat request so the AI can provide relevant, personalized skincare advice. The Glow proxy server does not store your data beyond the duration of the request.</li>
+<li><strong>Data retention by third party:</strong> xAI may process and temporarily retain data according to their privacy policy. Glow's proxy server does not retain any user data after the request is completed.</li>
+<li><strong>Consent:</strong> The app asks for your explicit consent before sending any data to the AI service. You must review and accept the data sharing notice before the AI Advisor becomes active. If you do not consent, all other Glow features remain fully functional.</li>
+<li><strong>Your control:</strong> You can stop using the AI Advisor at any time. Deleting all data from Settings revokes your AI data sharing consent.</li>
+</ul>
+
+<h2>Data Storage</h2>
+<p>Your personal data (skincare logs, products, photos, profile) is stored locally on your device using SwiftData. If you enable iCloud sync, data is also stored in your private iCloud account under your Apple ID. We do not operate our own servers for storing user data.</p>
+
+<h2>Third-Party Services</h2>
+<ul>
+<li><strong>xAI (Grok AI):</strong> Processes text-only skincare data for AI Advisor responses (only with your explicit consent). <a href="https://x.ai/legal/privacy-policy">Privacy Policy</a></li>
+<li><strong>RevenueCat:</strong> Anonymous subscription analytics in observer mode. <a href="https://www.revenuecat.com/privacy">Privacy Policy</a></li>
+<li><strong>Apple CloudKit:</strong> Syncs your data to your private iCloud account (if enabled). <a href="https://www.apple.com/legal/privacy/">Privacy Policy</a></li>
+</ul>
+
+<h2>No Tracking</h2>
+<p>We do not track you across apps or websites. We do not sell your data. We do not use your data for advertising.</p>
+
+<h2>Data Security</h2>
+<p>All data transmitted to the AI service is encrypted via HTTPS. Local data is protected by your device's security (passcode, Face ID, Touch ID). iCloud data is encrypted by Apple.</p>
+
+<h2>Children</h2>
+<p>Glow is not directed at children under 13.</p>
+
+<h2>Your Rights</h2>
+<p>You can delete all your data at any time:</p>
+<ul>
+<li>Delete individual items (photos, products, logs) within the app.</li>
+<li>Use "Delete All Data" in Settings to remove everything.</li>
+<li>Use "Delete Account" in Settings to revoke your Apple ID connection and delete all data.</li>
+<li>Uninstall the app to remove all local data.</li>
+</ul>
+<p>Contact: <a href="mailto:karoljaworsky@gmail.com">karoljaworsky@gmail.com</a></p>
+
+<h2>Changes to This Policy</h2>
+<p>We may update this policy from time to time. The "Last updated" date at the top reflects the most recent revision.</p>
+
+<p>&copy; 2026 Karol Jaworski</p></body></html>
