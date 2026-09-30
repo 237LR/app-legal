@@ -48,6 +48,9 @@
       document.getElementById("code").textContent = code;
       document.getElementById("open").href = "homehero://join?code=" + code;
     }
+    // Invites now point at ceanic.app/homehero/join/<code> (opens the app directly,
+    // helps inside Messenger/Instagram browsers). Early 2.7 test invites land here.
+    location.replace("https://ceanic.app/homehero/join/" + (code.length === 6 ? code : ""));
   })();
 </script>
 </body>
